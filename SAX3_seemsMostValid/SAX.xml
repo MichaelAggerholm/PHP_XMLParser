@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<members>
+    <member id="1" position="president">
+        <firstName>Jim</firstName>
+        <lastName>Smith</lastName>
+        <score>12</score>
+    </member>
+    <member id="2">
+        <firstName>Hank</firstName>
+        <lastName>Rogers</lastName>
+        <score>18</score>
+    </member>
+    <member id="3" position="secretary">
+        <firstName>Joy</firstName>
+        <lastName>Ashton</lastName>
+        <score>21</score>
+    </member>
+    <member id="4">
+        <firstName>Jill</firstName>
+        <lastName>Ashton</lastName>
+        <score>22</score>
+    </member>
+</members>

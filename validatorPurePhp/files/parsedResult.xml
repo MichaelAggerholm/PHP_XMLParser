@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<books><book>
+            <title>The tragic comedy</title>
+            <isbn>978-3-16-148410-0</isbn>
+            <language>German</language>
+            <pages>344</pages>
+            <publication_date>17-03-2020</publication_date>
+            <publisher>Franks forlag</publisher>
+        </book><book>
+            <title>The police academy</title>
+            <isbn>923-2-14-161110-5</isbn>
+            <language>English</language>
+            <pages>167</pages>
+            <publication_date>11-06-2017</publication_date>
+            <publisher>Birgittes forlag</publisher>
+        </book><book>
+            <title>The great cookbook</title>
+            <isbn>925-7-13-141918-9</isbn>
+            <language>French</language>
+            <pages>274</pages>
+            <publication_date>19-01-2013</publication_date>
+            <publisher>Susannes Forlag</publisher>
+        </book><book>
+            <title>The hallo sir book</title>
+            <isbn>246-4-26-144234-7</isbn>
+            <language>Danish</language>
+            <pages>277</pages>
+            <publication_date>23-05-2019</publication_date>
+            <publisher>Pers forlag</publisher>
+        </book></books>
