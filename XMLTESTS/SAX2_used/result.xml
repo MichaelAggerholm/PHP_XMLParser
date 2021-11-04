@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<student>
+  <result id="1">
+    <name>Handsome boy</name>
+    <sgpa>458</sgpa>
+    <cgpa>4</cgpa>
+    <name>Handsome boy</name>
+    <sgpa>474</sgpa>
+    <cgpa>9</cgpa>
+    <name>Handsome boy</name>
+    <sgpa>279</sgpa>
+    <cgpa>3</cgpa>
+    <name>Handsome boy</name>
+    <sgpa>24</sgpa>
+    <cgpa>5</cgpa>
+    <name>Handsome boy</name>
+    <sgpa>291</sgpa>
+    <cgpa>6</cgpa>
+  </result>
+</student>

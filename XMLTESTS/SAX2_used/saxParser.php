@@ -94,7 +94,9 @@ function endTag($parser, $name) {
 function contents($parser, $data) {
 	global $lastContents;
 	$lastContents = $data;
-	// var_dump($data);
+
+//	$split = explode(" ", $lastContents);
+//	print_r($split);
 }
 
 print_r("Time in seconds:  " . (time() - $start));

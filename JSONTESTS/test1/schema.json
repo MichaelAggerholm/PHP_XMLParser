@@ -1,0 +1,125 @@
+{
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://example.com/object1636059498.json",
+  "title": "Root",
+  "type": "object",
+  "required": [
+  ],
+  "properties": {
+    "books": {
+      "$id": "#root/books",
+      "title": "Books",
+      "type": "array",
+      "default": [],
+      "items":{
+        "$id": "#root/books/items",
+        "title": "Items",
+        "type": "object",
+        "required": [
+          "isbn",
+          "title",
+          "subtitle",
+          "author",
+          "published",
+          "publisher",
+          "pages",
+          "description",
+          "website"
+        ],
+        "properties": {
+          "isbn": {
+            "$id": "#root/books/items/isbn",
+            "title": "Isbn",
+            "type": "string",
+            "default": "",
+            "examples": [
+              "9781593279509"
+            ],
+            "pattern": "^.*$"
+          },
+          "title": {
+            "$id": "#root/books/items/title",
+            "title": "Title",
+            "type": "string",
+            "default": "",
+            "examples": [
+              "Eloquent JavaScript, Third Edition"
+            ],
+            "pattern": "^.*$"
+          },
+          "subtitle": {
+            "$id": "#root/books/items/subtitle",
+            "title": "Subtitle",
+            "type": "string",
+            "default": "",
+            "examples": [
+              "A Modern Introduction to Programming"
+            ],
+            "pattern": "^.*$"
+          },
+          "author": {
+            "$id": "#root/books/items/author",
+            "title": "Author",
+            "type": "string",
+            "default": "",
+            "examples": [
+              "Marijn Haverbeke"
+            ],
+            "pattern": "^.*$"
+          },
+          "published": {
+            "$id": "#root/books/items/published",
+            "title": "Published",
+            "type": "string",
+            "default": "",
+            "examples": [
+              "2018-12-04T00:00:00.000Z"
+            ],
+            "pattern": "^.*$"
+          },
+          "publisher": {
+            "$id": "#root/books/items/publisher",
+            "title": "Publisher",
+            "type": "string",
+            "default": "",
+            "examples": [
+              "No Starch Press"
+            ],
+            "pattern": "^.*$"
+          },
+          "pages": {
+            "$id": "#root/books/items/pages",
+            "title": "Pages",
+            "type": "integer",
+            "examples": [
+              472
+            ],
+            "default": 0
+          },
+          "description": {
+            "$id": "#root/books/items/description",
+            "title": "Description",
+            "type": "string",
+            "default": "",
+            "examples": [
+              "JavaScript lies at the heart of almost every modern web application, from social apps like Twitter to browser-based game frameworks like Phaser and Babylon. Though simple for beginners to pick up and play with, JavaScript is a flexible, complex language that you can use to build full-scale applications."
+            ],
+            "pattern": "^.*$"
+          },
+          "website": {
+            "$id": "#root/books/items/website",
+            "title": "Website",
+            "type": "string",
+            "default": "",
+            "examples": [
+              "http://eloquentjavascript.net/"
+            ],
+            "pattern": "^.*$"
+          }
+        }
+      }
+
+    }
+  }
+}
