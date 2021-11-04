@@ -94,7 +94,7 @@ function endTag($parser, $name) {
 function contents($parser, $data) {
 	global $lastContents;
 	$lastContents = $data;
+//	var_dump($data);
 }
 
-//var_dump("Mem in MiB: " . round((processPeakMemUsage() / 1024)));
-var_dump("Time in seconds:  " . (time() - $start));
+print_r("Time in seconds:  " . (time() - $start));
