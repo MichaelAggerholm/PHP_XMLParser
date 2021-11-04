@@ -2,7 +2,7 @@
 $start = time();
 
 //we open a handle to the file
-$stream = fopen('SAX.xml', 'r');
+$stream = fopen('result.xml', 'r');
 
 //create the actual parser
 $parser = xml_parser_create();
@@ -94,7 +94,7 @@ function endTag($parser, $name) {
 function contents($parser, $data) {
 	global $lastContents;
 	$lastContents = $data;
-//	var_dump($data);
+	// var_dump($data);
 }
 
 print_r("Time in seconds:  " . (time() - $start));
